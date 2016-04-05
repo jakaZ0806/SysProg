@@ -1,0 +1,16 @@
+*.swp
+*.project
+*.cproject
+*.so
+
+Automat/debug/*
+Automat/lib/*
+
+Buffer/debug/*
+Buffer/lib/*
+
+Scanner/debug/*
+Scanner/lib/*
+
+Symboltable/debug/*
+Symboltable/lib/*
