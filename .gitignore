@@ -1,0 +1,15 @@
+*.swp
+*.project
+*.cproject
+
+Automat/debug/*
+Automat/objs/*
+
+Buffer/debug/*
+Buffer/objs/*
+
+Scanner/debug/*
+Scanner/objs/*
+
+Symboltable/debug/*
+Symboltable/objs/*
