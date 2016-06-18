@@ -5,10 +5,15 @@
 
 int main(int argc, char **argv) {
 
-//	Buffer*  buffer;
+	Buffer*  buffer;
 
-//	buffer = new Buffer();
+	const char *const file = "/home/thomas/git/SysProg/Buffer/src/TestFile.txt";
+	buffer = new Buffer(file);
 
-	std::cout << "Hello!" << std::endl;
+	//std::cout << "Hello!" << std::endl;
+
+	int filesize = 20;
+	while(filesize > 0)
+	std::cout << buffer->nextChar();
 
 }
